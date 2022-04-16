@@ -83,17 +83,17 @@ start.addEventListener("click", function(event){
         quixBox.children[1].appendChild(d);
 
         a.addEventListener("click", function(chooseA){
-            quizTime--;
+            quizTime = quizTime - 3;
         });
         b.addEventListener("click", function(chooseB){
-            quizTime--;
+            quizTime = quizTime - 3;
         });
         c.addEventListener("click", function(chooseC){
             quixBox.children[1].innerHTML= '';
             question2();
         });
         d.addEventListener("click", function(chooseD){
-            quizTime--;
+            quizTime = quizTime - 3;
         });
         
         function question2() {
@@ -120,13 +120,13 @@ start.addEventListener("click", function(event){
                 question3();
             });
             b.addEventListener("click", function(chooseB){
-                quizTime--;
+                quizTime = quizTime - 3;
             });
             c.addEventListener("click", function(chooseC){
-                quizTime--;
+                quizTime = quizTime - 3;
             });
             d.addEventListener("click", function(chooseD){
-                quizTime--;
+                quizTime = quizTime - 3;
             });
         }
         function question3() {
@@ -149,13 +149,13 @@ start.addEventListener("click", function(event){
             quixBox.children[1].appendChild(d);
 
             a.addEventListener("click", function(chooseA){
-                quizTime--;  
+                quizTime = quizTime - 3;  
             });
             b.addEventListener("click", function(chooseB){
-                quizTime--;
+                quizTime = quizTime - 3;
             });
             c.addEventListener("click", function(chooseC){
-                quizTime--;
+                quizTime = quizTime - 3;
             });
             d.addEventListener("click", function(chooseD){
                 quixBox.children[1].innerHTML= '';
@@ -182,17 +182,17 @@ start.addEventListener("click", function(event){
             quixBox.children[1].appendChild(d);
 
             a.addEventListener("click", function(chooseA){
-                quizTime--;
+                quizTime = quizTime - 3;
             });
             b.addEventListener("click", function(chooseB){
-                quizTime--;
+                quizTime = quizTime - 3;
             });
             c.addEventListener("click", function(chooseC){
                 quixBox.children[1].innerHTML= '';
                 question5();
             });
             d.addEventListener("click", function(chooseD){
-                quizTime--;
+                quizTime = quizTime - 3;
             });
         }
         function question5() {
@@ -215,13 +215,13 @@ start.addEventListener("click", function(event){
             quixBox.children[1].appendChild(d);
 
             a.addEventListener("click", function(chooseA){
-                time--;
+                quizTime = quizTime - 3;
             });
             b.addEventListener("click", function(chooseB){
-                time--;
+                quizTime = quizTime - 3;
             });
             c.addEventListener("click", function(chooseC){
-                time--;
+                quizTime = quizTime - 3;
             });
             d.addEventListener("click", function(chooseD){
                 let score = quizTime;
