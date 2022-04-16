@@ -11,3 +11,5 @@ the score and making it easy to read, and fine tuning the code.
 
 
 the link to the quiz is: https://billybain.github.io/week-4-homework/
+
+![Coding Quiz - Google Chrome 4_16_2022 7_34_30 PM](https://user-images.githubusercontent.com/100814286/163694357-62e93ec5-7cc6-4986-b08a-f1b122590411.png)
